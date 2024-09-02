@@ -18,4 +18,4 @@ Two variables, longestComp and secondLongestComp, are initialized to store the l
 The program iterates through the sorted list of words and checks each word to see if it is a compounded word using the func() method.
 
 **Measure Processing Time**
-The time taken to process the file is measured using System.nanoTime() before and after the word-processing loop
+The time taken to process the file is measured using System.nanoTime() before and after the word-processing loop.
