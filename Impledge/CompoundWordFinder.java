@@ -5,7 +5,7 @@ public class CompoundWordFinder {
     public static void main(String[] args) throws IOException {
         List<String> words = new ArrayList<>();
         Set<String> wordSet = new HashSet<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("practice/Input_02.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("./Input_02.txt"))) {
             String word;
             while ((word = br.readLine()) != null) {
                 words.add(word);
