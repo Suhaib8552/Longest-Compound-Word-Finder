@@ -29,11 +29,12 @@ public class CompoundWordFinder {
             }
         }
         long endTime=System.nanoTime();
-        long displayTime=endTime-startTime;
+        long displayTime=(endTime-startTime);
+        
 
         System.out.println("Longest compound word: " + longest);
         System.out.println("Second longest compound word: " + secondLongest);
-        System.out.println("Time taken: "+displayTime+" ms");
+        System.out.println("Time taken: "+displayTime+" ns");
 
     }
 
